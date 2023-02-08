@@ -5,7 +5,7 @@ import { Navbar, ContentFeed } from './components/'
 const App = () => {
   return (
     <Box>
-      <Navbar />
+      <Navbar sx={{position: "fixed"}}/>
       <ContentFeed />
     </Box>
   )

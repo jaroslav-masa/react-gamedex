@@ -2,6 +2,7 @@ import React from 'react'
 //import { Link} from '@mui/material'
 import { Stack } from '@mui/system'
 import { SearchBar } from './'
+import { Avatar } from '@mui/material'
 //import { logo } from "../utils/commons"
 
 const Navbar = () => {
