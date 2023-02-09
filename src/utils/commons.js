@@ -1,1 +1,2 @@
-export const logo = ""; //TODO: logo
+import logoImage from  "../logo.png";
+export const logo = logoImage; 
