@@ -1,8 +1,11 @@
+import { Box } from '@mui/material'
 import React from 'react'
 
 const ContentFeed = () => {
   return (
-    <div>ContentFeed</div>
+    <Box>
+      
+    </Box>
   )
 }
 
