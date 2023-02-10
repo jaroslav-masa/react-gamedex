@@ -1,17 +1,18 @@
 import React from 'react'
-import { Link} from '@mui/material'
+import { Link } from '@mui/material'
 import { Stack } from '@mui/system'
-import { SearchBar, ProfileAvatar } from './'
-import { logo } from "../utils/commons"
+import { SearchBar } from './'
+import { logo } from '../utils/commons'
+import { blue } from '@mui/material/colors'
+
 
 const Navbar = () => {
     return (
-        <Stack sx={{padding: "1.5vh", display: "flex", justifyContent: "space-between", alignItems: "center"}} direction="row">
+        <Stack sx={{padding: "1.5vh", marginRight: 1, display: "flex", justifyContent: "space-between", alignItems: "center"}} direction="row">
             <Link to="/" style={{ display: "flex", alignItems: "center" }}>
-                <img src={logo} alt="logo" height={45} />
+                <img src={logo} width="40px" draggable="false" alt="GameDex Logo"/>
             </Link>
-            <SearchBar/>
-            <ProfileAvatar />
+            <SearchBar />
         </Stack>
     )
 }

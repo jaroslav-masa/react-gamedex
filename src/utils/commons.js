@@ -1,2 +1,1 @@
-import logoImage from  "../logo.png";
-export const logo = logoImage; 
+export { default as logo } from "../logo.png";
